@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/form.css">
     <title>Fundación Kano | Al servicio de las personas con discapacidad</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
           <ul class="navbar__list">
             <li class="navbar__item"><a class="link navbar__link navbar__link--section" href="#">Inicio</a></li>
             <li class="navbar__item"><a class="link navbar__link navbar__link--section" href="#">Quienes somos</a></li>
-            <li class="navbar__item"><a class="link navbar__link navbar__link--section" href="#">Centro de formación</a></li>
+            <li class="navbar__item"><a class="link navbar__link navbar__link--section" href="./secctions/centro-formacion/centro-formacion.html">Centro de formación</a></li>
             <li class="navbar__item"><a class="link navbar__link navbar__link--section" href="#">Hacete socio</a></li>
             <li class="navbar__item"><a class="link navbar__link navbar__link--section" href="#">Contacto</a></li>
           </ul>
@@ -65,6 +66,41 @@
                 ¡Te invitamos a ser parte de nuestra misión y ayudarnos a abrir la puerta a un mundo de arte, nuevos desafíos y crecimiento personal donde quepamos todos!
             </p>
         </div>
+        <div class="divForm">
+          <div class="section__title-container">
+            <h2 class="section__title">Comunicate con nosotros</h2>
+            <svg class="section__logo" id="ek3nwpW7ThL1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><line x1="50" y1="-50" x2="-50" y2="50" transform="translate(50 50)" fill="none" stroke="#fff" stroke-width="7"/><line x1="-50" y1="-50" x2="50" y2="50" transform="translate(50 150)" fill="none" stroke="#fff" stroke-width="7"/><line x1="-2" y1="0" x2="1" y2="0" transform="matrix(1.00001 0 0 1 0 100)" fill="none" stroke="#fff" stroke-width="6"/></svg>
+        </div>
+          <form action="divForm">
+            <h3>Escribinos y te asesoramos en lo que necesites</h3>
+            <div class="nombre">
+              <label for="name">Nombre</label><br /><br />
+              <input type="text" placeholder="Indicá tu nombre"/>
+            </div>
+            <div class="email">
+              <label for="mail">Email</label><br /><br />
+              <input type="mail" placeholder="Tu mail al que nos comunicaremos"/>
+            </div>
+            <div class="mensaje">
+              <label for="message">Mensaje</label> <br /><br />
+              <textarea name="message" id="message" placeholder="Dejanos acá tu mensaje"></textarea>
+            </div>
+            <div class="boton">
+              <button class="btn">
+                <h3>Enviar</h3>
+              </button>
+            </div>
+          </div>
+          </form>
+        </div>
     </div>
+    <footer class="footer--section">
+      <ul>
+        <li><img src="./images/insta-icon.png" alt="logo instagram"><a href="https://instagram.com/fundacionkano?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a></li>
+        <li><img src="./images/gm-icon.png" alt="gmail logo"> <a href="mailto:kanofundacion@gmail.com" target="_blank">Mandanos un mail </a></li>
+        <li><img src="./images/fb-icon.png" alt="logo facebook"><a href="https://www.facebook.com/profile.php?id=100065153526536" target="_blank">Facebook</a></li>
+        <li>© Todos los derechos resevados</li>
+      </ul>
+    </footer>
 </body>
 </html>

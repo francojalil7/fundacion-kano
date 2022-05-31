@@ -219,8 +219,29 @@ svg {
   font-size: 1.5rem;
   padding: 1rem;
   text-align: center;
+  margin: 2rem;
 }
-
+/*FOOTER*/
+.footer--section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  background-color: #003153;
+  color: white;
+  box-shadow: 0rem 0rem 2.5rem #003153;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+.footer--section li{
+  list-style: none;
+  margin: 1.5rem;
+}
+.footer--section a{
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+}
 /* RESPONSIVE */
 @media (min-width: 768px) {
   .nav-toggle {
@@ -266,5 +287,11 @@ svg {
     width: 70px;
     margin-left: calc(10vw + 10px);
     /* transform: translateY(-35%); */
+  }
+  .footer--section ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }
